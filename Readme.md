@@ -7,7 +7,6 @@
 - Simulate the resulting system and verify that it meets performance objectives.
 
 ---
-
 ## Theory
 The **power budget equation** states that the power budget in a transmission system must equal the sum of all power losses plus the power margin.  
 
@@ -67,6 +66,36 @@ Using the power budget equation and the parameters below, determine the attenuat
 ## Analysis and Report
 Compare simulation results with pre-lab calculations and record observations.  
 
+Your report should contain:
+- **Cover Page**
+  - Title of the lab  
+  - Course name and number  
+  - Your name  
+
+- **Pre-lab Calculations**  
+
+- **Screenshots** of layout and results (including eye diagrams)  
+
+- **Summary Table** for each simulation:
+  | Fiber Length (km) | Received Power (dBm) | Q Factor | BER |
+  |-------------------|-----------------------|----------|-----|
+  
+
+- **Written Summary** of observations and explanations of differences.
+
+ ## TABULATION
+ <img width="619" height="325" alt="image" src="https://github.com/user-attachments/assets/c94b6675-b2df-4aac-9a81-60187a05f0b3" />
+  
+
 <img width="1174" height="1280" alt="image" src="https://github.com/user-attachments/assets/1857fbb6-7a4c-4297-999e-49f30f4f8502" />
 
 <img width="1280" height="1202" alt="image" src="https://github.com/user-attachments/assets/65427330-162d-4f24-8bf8-e5fa4f2ec825" />
+
+## model graph
+ <img width="1125" height="388" alt="image" src="https://github.com/user-attachments/assets/bd67f968-baf3-49e4-8054-ac58f2a3e3d0" />
+
+
+## RESULT
+Calculated attenuation-limited fiber length ≈ 121 km based on a 23 dB allowable fiber loss.
+
+At 125% length (≈ 151 km), the system exceeds the power budget, leading to degraded performance (lower Q factor and higher BER).
